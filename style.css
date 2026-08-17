@@ -269,7 +269,6 @@ footer a:focus-visible,
 
 .grid-cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); 
   gap: var(--space-lg);
   justify-items: center; 
   margin-top: var(--space-md);
