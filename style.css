@@ -464,6 +464,18 @@ footer img {
   }
 }
 
+/* mobile */
+@media (max-width: 767px) {
+  .promo-overlay {
+    top: 5%;
+    left: 30%;
+    font-weight: bold;
+    transform: translate(-50%, 0%);
+    font-size: var(--text-lg); 
+    padding: var(--space-md);
+  }
+}
+
 /*highlights*/
 /*mobile*/
 @media (max-width: 767px) {
