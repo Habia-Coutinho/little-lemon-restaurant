@@ -198,15 +198,36 @@ header img{
   text-align: center;
 }
 
-.hero img{
+.hero-banner {
+  position: relative;
+  width: 100%;
+}
+
+.hero-banner img {
   width: 100%;
   max-width: 70rem;
   aspect-ratio: 16 / 9;
   object-fit: cover;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
 }
 
 .hero h1{
   text-align: center;
+}
+
+.promo-overlay {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: var(--yellow);
+  text-shadow: 2px 2px 4px var(--green);
+  font-weight: bold;
+  font-size: var(--text-xl);
+  padding: var(--space-lg);
+  border-radius: var(--radius-md);
 }
 
 /*button*/
